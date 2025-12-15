@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 7</title>
+</head>
+<body>
+
+    <h1>HTML Forms, Labels and Input attributes</h1>
+
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend><br>
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname" size="40" value="Valeza" readonly><br><br>
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname" size="40"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" size="40" placeholder="Email"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" size="40" required><br><br>
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+         <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <label for="Hobbies">Hobbies:</label><br>
+        <input type="checkbox" id="painting" name="painting" value="Painting">
+        <label for="Painting">Painting</label><br>
+        <input type="checkbox" id="reading" name="reading" value="Reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" id="playing" name="playing" value="Playing">
+        <label for="playing">Playing</label><br>
+        <input type="checkbox" id="filming" name="filming" value="Filming">
+        <label for="filming">Filming</label><br><br>
+        <p>Favourite pet:</p><br>
+        <select name="pet" id="pet">
+           <option value="Dog">Dog</option>
+           <option value="Cat">Cat</option>
+           <option value="Fish">Fish</option>
+        </select><br><br>
+        <textarea name="message" id="message" rows="12" cols="14" maxlength="100">Write a message here:</textarea><br><br>
+        <input type="submit" id="submit" name="submit">
+      </fieldset>
+    </form>
+    
+</body>
+</html>
