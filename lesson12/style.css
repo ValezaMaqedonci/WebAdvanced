@@ -1,0 +1,88 @@
+h1{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-indent: 25px;
+    text-align: center;
+    writing-mode: horizontal-tb;
+}
+
+p{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-indent: 25px;
+    text-align: center;
+}
+
+body {
+    margin: 20px;
+    background-color:navy;
+}
+
+h2{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-indent: 25px;
+    text-align: center;
+    text-decoration: overline;
+    writing-mode: vertical-rl;
+}
+
+h3{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-indent: 25px;
+    text-align: center;
+    text-decoration: line-through;
+    writing-mode: vertical-rl;
+}   
+
+h4{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-indent: 25px;
+    text-align: center;
+    text-decoration: underline;
+    writing-mode: vertical-rl;
+}  
+
+.textdecoration{
+    color: steelblue;
+}
+
+#normal{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#italic{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#oblique{
+    font-style: oblique;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-indent: 25px;
+    text-align: center !important;
+    writing-mode: horizontal-tb;
+}
