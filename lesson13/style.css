@@ -1,0 +1,66 @@
+h1{
+    color: rgb(209, 153, 80);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 30px;
+
+}
+
+p{
+    color: rgb(209, 153, 80);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 30px;
+}
+
+body{
+    background-color: rgb(112, 65, 43);
+}
+
+ul{
+    list-style-type: none;
+    color: rgb(209, 153, 80);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0%;
+    border: rgb(75, 41, 29) solid 5px;
+
+}
+
+ol{
+    list-style-type: none;
+    color: rgb(209, 153, 80);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0%;
+    border: rgb(75, 41, 29) solid 5px;
+}
+
+ol li{
+    padding: 10px;
+    margin-left: 30px;
+    word-spacing: 10px;
+    letter-spacing: 30px;
+    border-bottom: rgb(75, 41, 29) solid 2px;
+}
+
+ul li{
+    padding: 10px;
+    margin-left: 30px;
+    word-spacing: 10px;
+    letter-spacing: 30px;
+    border-bottom: rgb(75, 41, 29) solid 2px;   
+}
+
+/*ul{
+    border-left: 5px solid rgb(75, 41, 29);
+    color: saddlebrown;
+    list-style-type: none;
+    padding: 15px 25px;
+}*/
+/*table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: rgb(209, 153, 80);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}*/
