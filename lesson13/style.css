@@ -2,17 +2,12 @@ h1{
     color: rgb(209, 153, 80);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    word-spacing: 10px;
-    letter-spacing: 30px;
-
 }
 
 p{
     color: rgb(209, 153, 80);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    word-spacing: 10px;
-    letter-spacing: 30px;
 }
 
 body{
@@ -25,6 +20,8 @@ ul{
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0%;
     border: rgb(75, 41, 29) solid 5px;
+    text-align: center;
+    padding: 15px;
 
 }
 
@@ -34,22 +31,24 @@ ol{
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0%;
     border: rgb(75, 41, 29) solid 5px;
+    text-align: center;
+    padding: 15px;
 }
 
 ol li{
     padding: 10px;
     margin-left: 30px;
-    word-spacing: 10px;
-    letter-spacing: 30px;
     border-bottom: rgb(75, 41, 29) solid 2px;
+    text-align: center;
+    padding: 15px;
 }
 
 ul li{
     padding: 10px;
     margin-left: 30px;
-    word-spacing: 10px;
-    letter-spacing: 30px;
-    border-bottom: rgb(75, 41, 29) solid 2px;   
+    border-bottom: rgb(75, 41, 29) solid 2px; 
+    text-align: center;  
+    padding: 15px;
 }
 
 /*ul{
@@ -58,9 +57,31 @@ ul li{
     list-style-type: none;
     padding: 15px 25px;
 }*/
-/*table, th, td {
-    border: 1px solid black;
+
+table, th, td {
+    border: 5px solid rgb(75, 41, 29);
     border-collapse: collapse;
+    padding: 15px;
     color: rgb(209, 153, 80);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*table, th, td:nth-child(odd){
+   background-color:chocolate;
+}
+
+table, th, td:nth-child(even){
+    background-color: coral;
 }*/
+
+div{
+    overflow: scroll;
+    background-color: rgb(112, 65, 43);
+    color: rgb(209, 153, 80);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+}
