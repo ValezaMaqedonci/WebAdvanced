@@ -1,0 +1,93 @@
+h1{
+    color:peachpuff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 55px;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color:peachpuff;
+    font-size: 24px;
+}
+
+article p{
+    font-size: 16px;
+    color:peachpuff;
+    background-color:orchid;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+article > p{
+    font-size: 20px;
+    color:peachpuff;
+    background-color:plum;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+article ~ p{
+    font-size: 14px;
+    color:peachpuff;
+    background-color:violet;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+article + p{
+    font-size: 12px;
+    color:peachpuff;
+    background-color:lightpink;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color:hotpink;
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    color: peachpuff;
+    font-weight: bold;
+    background-color: mediumvioletred;
+    margin: 20px;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid peachpuff;
+    background-color: mediumvioletred;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input:invalid {
+    border: 2px solid mediumvioletred;
+    background-color: lightpink;
+}
+
+span:first-of-type{
+    font-size: 24px;
+    color: peachpuff;
+    background-color: darkmagenta;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+input[type="submit"]{
+    background-color: plum;
+    color: peachpuff;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
