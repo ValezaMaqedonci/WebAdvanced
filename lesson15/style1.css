@@ -1,0 +1,13 @@
+h2{
+    color: navy;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    text-align: center;
+}
+
+ul{
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    font-size: 17px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
