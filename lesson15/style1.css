@@ -1,13 +1,132 @@
-h2{
+h1{
     color: navy;
     font-family: 'Arial Black', Gadget, sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
-ul{
-    margin: 20px;
-    width: 150px;
-    height: 150px;
-    font-size: 17px;
+
+.horizontal-menu{
+    background-color: navy;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+.horizontal-menu  a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+
+.horizontal-menu li{
+    display: inline;
+    float: left;
+}
+
+body{
+    background-color: cornflowerblue;
+    margin: 0;
+}
+
+.horizontal-menu a:hover/*:not(.home)*/{
+    background-color:blue;
+    color: black;
+    border-radius: 4px;
+}
+
+/*.home:hover{
+    background-color:dodgerblue;
+    color: white;
+    border-radius: 4px;
+}
+*/
+
+.navbar{
+    color: white;
+    text-decoration: none;
     font-family: 'Arial Black', Gadget, sans-serif;
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+button{
+    border: 1px solid navy;
+    color: white;
+    background-color:cornflowerblue;
+    padding: 10px 20px;
+    border: none
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color: blue;
+    color: black;
+    border-radius: 4px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: navy;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-hover .dropdown-content{
+    display: block;
+}
+
+.column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+    height: 250px;
+}
+
+.column a{
+    float: none;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.column a:hover{
+    background-color: blue;
+    color: black;
+    border-radius: 4px;
 }
