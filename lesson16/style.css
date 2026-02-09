@@ -1,0 +1,58 @@
+div .gallery{
+     margin: 5px;
+     border: 1px solid darkred;
+     float: left;
+     width: 180px;
+}
+
+body{
+    background-color: black;
+    color: darkred;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div .gallery:hover{
+    border: 1px solid red;
+}
+
+div .gallery img{
+    width: 100%;
+    height: auto;
+}
+
+div .desc{
+    padding: 15px;
+    text-align: center;
+}
+
+a[href="https://www.nature.org/en-us/"]{
+    color: darkred;
+}
+
+p[class*="nat"]{
+    background-color:crimson;
+    padding: 20px;
+    border: 3px solid red;
+}
+
+.paragraph{
+    background-color: firebrick;
+    padding: 20px;
+    border: 3px solid red;
+}
+
+div[id~="nat"]{
+    background-color: red;
+    padding: 20px;
+    border: 3px solid brown;
+}
+
+img[title^="trees"]{
+    border: 3px solid green;
+}
+
+/*h1[class|="heading_1"]{
+    background-color: maroon;
+    padding: 20px;
+}*/
