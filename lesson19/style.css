@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: blueviolet;
+    color:goldenrod;
+    font-size: 22px;
+}
+
+h1{
+    text-align: center;
+    color: goldenrod;
+    font-size: 60px;
+}
+
+.container1{
+    background-color:yellow;
+    display: flex;
+}
+
+.container1 div{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.container1 div:nth-child(1){
+    order: 2;
+}
+
+.container1 div:nth-child(2){
+    order: 3;
+}   
+
+.container1 div:nth-child(3){
+    order: 0;
+}
+
+.container1 div:nth-child(4){
+    order: 0;
+}
+
+.container2{
+    background-color:yellow;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container2 div{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.container3{
+    background-color:yellow;
+    display: flex;
+    flex-direction: row;
+}
+
+.container3 div{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.container3 div:nth-child(1){
+    flex-grow: 4;
+}
+
+.container4{
+    background-color:yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.container4 div{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 30%;
+}
+
+.container5{
+    background-color:yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.container5 div{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
