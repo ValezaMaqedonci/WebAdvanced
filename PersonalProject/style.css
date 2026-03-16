@@ -5,7 +5,7 @@ body{
 }
 
 .part-1{
-    background-color:#ffd07b;
+    background-color:#f3b8b8;
     min-height: 650px;
 }
 
@@ -33,7 +33,7 @@ nav ul li a{
 }
 
 nav ul li.active:hover{
-    background-color: #f0c67f;
+    background-color: #e7a8a4;
     border-radius: 5px;
 }
 
@@ -55,12 +55,12 @@ nav ul li.active:hover{
     text-transform: uppercase;
     border-radius: 5px;
     padding: 25px 85px;
-    background-color: #ffe5b0;
+    background-color: #eb9b99;
     color: black;
 }
 
 #part-2{
-    background-color: #d19f1f;
+    background-color: #f09595;
     min-height: 745px;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
@@ -104,7 +104,9 @@ nav ul li.active:hover{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    padding-bottom: 100px;
 }
+
 
 .costumer h3{
     font-size: 24px;
@@ -119,7 +121,7 @@ nav ul li.active:hover{
 }
 
 .loader{
-    margin: 0px 100px 100px 100px;
+    margin: 0px 100px 0px 100px;
 }
 
 .loader img{
@@ -127,7 +129,7 @@ nav ul li.active:hover{
     width: 0px;
     height: 0px;
     border-radius: 50%;
-    animation: bounce 8s infinite alternate;
+    animation: bounce 8s forwards;
 }
 
 .loader img:nth-child(2){
@@ -151,10 +153,10 @@ nav ul li.active:hover{
 }
 
 .part-3{
-    background-color: #a87d32;
+    background-color: #d47474;
     color: black;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 .title .line{
@@ -172,4 +174,32 @@ nav ul li.active:hover{
 
 .title h2{
     margin-top: 0;
+}
+
+footer{
+    background-color: rgb(194, 97, 97);
+}
+
+.footer-links{
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer ul{
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+}
+
+.footer-links ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
 }
