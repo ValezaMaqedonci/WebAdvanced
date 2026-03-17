@@ -5,21 +5,26 @@ body{
 }
 
 .part-1{
-    background-image: url("your-image.jpg");
-      background-size: cover;       /* makes it fill the whole screen */
-      background-repeat: no-repeat; /* prevents repeating */
-      background-position: center;  
+    background-image: url(img/hairpro.jpg);
+    background-size: cover;      
+    background-repeat: no-repeat; 
+    background-position: center;  
     min-height: 650px;
+    padding-bottom: 100px;
+}
+
+.first img{
+    width: 350px;
+    height: 170px;
+    padding-top: 50px;
 }
 
 .first{
-    margin-left: auto;
-    margin-right: auto;
     height: 100%;
 }
 
 header{
-    padding: 55px;
+    padding: 10px;
     display:flex;
     justify-content: space-around;
 }
@@ -29,14 +34,18 @@ nav ul li{
     padding: 10px 16px;
 }
 
+nav{
+    padding: 100px 16px;
+}
+
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 18px;
 }
 
 nav ul li.active:hover{
-    background-color: #e7a8a4;
+    background-color: #e7a4d3;
     border-radius: 5px;
 }
 
@@ -44,6 +53,7 @@ nav ul li.active:hover{
 .main-heading{
     margin-top: 148px;
     text-align: center;
+    color: white;
 }
 
 .main-heading h1{
@@ -59,13 +69,16 @@ nav ul li.active:hover{
     border-radius: 5px;
     padding: 25px 85px;
     background-color: #eb9b99;
-    color: black;
+    color: white;
 }
 
 #part-2{
-    background-color: #f09595;
+    background-image: url(img/girlsmarketing.jpg);
+    background-size: cover;    
+    background-repeat: no-repeat; 
+    background-position: center;  
     min-height: 745px;
-    color: black;
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 
@@ -156,8 +169,11 @@ nav ul li.active:hover{
 }
 
 .part-3{
-    background-color: #d47474;
-    color: black;
+    background-image: url(img/amikaproducts.jpg);
+    background-size: cover;    
+    background-repeat: no-repeat; 
+    background-position: center; 
+    color: white;
     padding-top: 100px;
     padding-bottom: 200px;
 }
@@ -165,7 +181,7 @@ nav ul li.active:hover{
 .title .line{
     width: 87px;
     height: 4px;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.30);
 }
 
 .title{
@@ -180,7 +196,7 @@ nav ul li.active:hover{
 }
 
 footer{
-    background-color: rgb(194, 97, 97);
+    background-color: #b92053;
 }
 
 .footer-links{
@@ -203,6 +219,66 @@ footer ul{
 
 .footer-links ul li a{
     text-decoration: none;
-    color: black;
+    color: #c273a0;
     font-size: 24px;
 }
+
+#contact-form{
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.form-row{
+    display: flex;
+}
+
+input[type="text"], input[type="email"]{
+    width: 46%;
+    height: 56px;
+}
+
+input[type="text"], input[type="email"], textarea{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #d066a6;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 16px;
+    padding-left: 26px;
+}
+
+textarea{
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+}
+
+input[type="submit"]{
+    background-color: #f050b5;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.big-button{
+    padding: 25px 85px;
+    color: white;
+    background-color: #eb369d;
+    border: 2px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.big-button:hover{
+    background-color:#e7a4d3;
+    color: white;
+    border-color: white;
+}               
+

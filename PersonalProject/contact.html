@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: #c44787;
+            color: white;
+        }
+
+        #contact{
+            padding-top: 0px;
+            padding-bottom: 20px;
+        }
+
+        .email::after{
+            background-color: #c44787;
+        }
+    </style>
+</head>
+<body>
+<div class="first">
+        <header>
+       <img src="img/silkroot (3) (1).png" alt="Silk root logo">
+    <nav>
+        <ul>
+            <li class="active"><a href="home.html">HOME</a></li>
+            <li class="active"><a href="about.html">ABOUT</a></li>
+            <li class="active"><a href="products.html">PRODUCTS</a></li>
+            <li class="active"><a href="contact.html">CONTACT</a></li>
+            <li class="active"><a href="yourcart.html">YOUR CART</a></li>
+        </ul>
+    </nav>
+    </header>   
+</div>
+
+    <section id="contact">
+        <div class="container">
+            <div class="title">
+                <h2>Contact Us</h2>
+                <div class="line"></div>
+                <p>Feel free to reach out to us with any questions or inquiries!</p>
+            </div>
+            <div id="contact-form">
+                <form>
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Your Name">
+                        <input class="email" type="email" name="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-row">
+                        <textarea type="message" name="message" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <input type="submit" class="big-button" value="Send Message">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

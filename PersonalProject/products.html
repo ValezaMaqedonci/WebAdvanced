@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haircare Products</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#d66a9c;
+    color: black;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+}
+
+nav ul li a{
+    list-style:none;
+    display:flex;
+    justify-content:flex-end;
+    color: black;
+}
+
+h2{
+    text-align:center;
+    margin:50px 0 20px 0;
+    font-size:32px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.product{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:0.3s;
+}
+
+.product:hover{
+    transform:translateY(-8px);
+}
+
+.product img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.product h3{
+    margin:15px 0 5px 0;
+    font-size:18px;
+}
+
+.product p{
+    color:#777;
+    font-size:14px;
+}
+
+.product span{
+    display:block;
+    margin:10px 0;
+    font-weight:bold;
+    color:#e18181;
+}
+
+.product button{
+    margin-bottom:15px;
+    padding:10px 20px;
+    border:none;
+    background:#e18181;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.product button:hover{
+    background:#d96d6d;
+}
+
+.first img{
+    width: 350px;
+    height: 130px;
+    padding-top: 70px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="first">
+        <header>
+       <img src="img/silkroot-Photoroom.png" alt="Silk root logo">
+    <nav>
+        <ul>
+            <li class="active"><a href="home.html">HOME</a></li>
+            <li class="active"><a href="about.html">ABOUT</a></li>
+            <li class="active"><a href="products.html">PRODUCTS</a></li>
+            <li class="active"><a href="contact.html">CONTACT</a></li>
+            <li class="active"><a href="yourcart.html">YOUR CART</a></li>
+        </ul>
+    </nav>
+   </header>
+    </div>
+    <h2>Products for Women</h2>
+    <div class="products">
+        <div class="product"><img src="img/compressed/allinonetreatment.jpg"><h3>All In One Treatment</h3><p>Hair care</p><span>€12</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/brushes.jpg"><h3>Brushes</h3><p>Hair care</p><span>€15</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/conditioner.jpg"><h3>Hydrating Conditioner</h3><p>Hair care</p><span>€10</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/curlcream.jpg"><h3>Moisturizing Curl Cream</h3><p>Hair care</p><span>€11</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/curlcreams (1).jpg"><h3>Moisturizing Curl Gel</h3><p>Hair care</p><span>€13</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/gel.jpg"><h3>Hair Gel</h3><p>Hair care</p><span>€14</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/hairserum.jpg"><h3>Hair Serum</h3><p>Hair care</p><span>€18</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/leaveinconditioner.jpg"><h3>Leave-In Conditioner</h3><p>Hair care</p><span>€9</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/mask.jpg"><h3>Hair Mask</h3><p>Hair care</p><span>€8</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/scalpoil.jpg"><h3>Scalp Oil</h3><p>Hair care</p><span>€16</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/serum.jpg"><h3>Hair Serum</h3><p>Hair care</p><span>€12</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/shampoo.jpg"><h3>Shampoo</h3><p>Hair care</p><span>€14</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/shampooandconditioner.jpg"><h3>Shampoo and Conditioner</h3><p>Hair care</p><span>€17</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/slickbrush.jpg"><h3>Slick Brush</h3><p>Hair care</p><span>€13</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/slickbrush1.jpg"><h3>Slick Brush</h3><p>Hair care</p><span>€11</span><button>Buy</button></div>
+    </div>
+
+    <h2>Products for Men</h2>
+    <div class="products">
+        <div class="product"><img src="img/compressed/gelman.jpg"><h3>Hair Gel</h3><p>Hair care</p><span>€10</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/leaveinconditionermen.jpg"><h3>Leave-In Conditioner</h3><p>Hair care</p><span>€9</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/maskmen.jpg"><h3>Hair Mask</h3><p>Hair care</p><span>€11</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/oilmen.jpg"><h3>Hair Oil</h3><p>Hair care</p><span>€13</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/serummen.jpg"><h3>Hair Serum</h3><p>Hair care</p><span>€8</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/shampooandconditionermen.jpg"><h3>Men Shampoo and Conditioner</h3><p>Hair care</p><span>€10</span><button>Buy</button></div>
+        <div class="product"><img src="img/compressed/shampoomen.jpg"><h3>Men Shampoo</h3><p>Hair care</p><span>€12</span><button>Buy</button></div>
+    </div>
+</div>
+
+</body>
+</html>
