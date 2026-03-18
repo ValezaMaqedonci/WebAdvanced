@@ -5,7 +5,7 @@ body{
 }
 
 .part-1{
-    background-image: url(img/hairpro.jpg);
+    background-image: url(img/openart-image_1773845454190_3e1047a9_1773845454297_fd3c5daa.png);
     background-size: cover;      
     background-repeat: no-repeat; 
     background-position: center;  
@@ -14,9 +14,9 @@ body{
 }
 
 .first img{
-    width: 350px;
-    height: 170px;
-    padding-top: 50px;
+    width: 400px;
+    height: 150px;
+    padding-top: 60px;
 }
 
 .first{
@@ -68,12 +68,12 @@ nav ul li.active:hover{
     text-transform: uppercase;
     border-radius: 5px;
     padding: 25px 85px;
-    background-color: #eb9b99;
+    background-color: #eccbca;
     color: white;
 }
 
 #part-2{
-    background-image: url(img/girlsmarketing.jpg);
+    background-image: url(img/2.jpg);
     background-size: cover;    
     background-repeat: no-repeat; 
     background-position: center;  
@@ -88,6 +88,7 @@ nav ul li.active:hover{
     margin-left: auto;
     margin-right: auto;
 }
+
 
 .title h2{
     margin-top: 0;
@@ -129,11 +130,13 @@ nav ul li.active:hover{
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 60px;
+    background-color: rosybrown;
 }
 
 .costumer p{
     font-size: 16px;
     line-height: 26px;
+    background-color: rosybrown;
 }
 
 .loader{
