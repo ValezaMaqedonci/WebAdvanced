@@ -45,7 +45,7 @@ nav ul li a{
 }
 
 nav ul li.active:hover{
-    background-color: #e7a4d3;
+    background-color: #e7c4a4;
     border-radius: 5px;
 }
 
@@ -68,7 +68,7 @@ nav ul li.active:hover{
     text-transform: uppercase;
     border-radius: 5px;
     padding: 25px 85px;
-    background-color: #eccbca;
+    background-color: #e9cac9;
     color: white;
 }
 
