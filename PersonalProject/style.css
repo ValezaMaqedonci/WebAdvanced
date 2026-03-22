@@ -73,7 +73,7 @@ nav ul li.active:hover{
 }
 
 #part-2{
-    background-image: url(img/2.jpg);
+    background-image: url(img/2-Photoroom.png);
     background-size: cover;    
     background-repeat: no-repeat; 
     background-position: center;  
@@ -130,13 +130,15 @@ nav ul li.active:hover{
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 60px;
-    background-color: rosybrown;
 }
 
 .costumer p{
     font-size: 16px;
     line-height: 26px;
-    background-color: rosybrown;
+}
+
+#mes{
+    width: 20px;
 }
 
 .loader{
@@ -222,7 +224,7 @@ footer ul{
 
 .footer-links ul li a{
     text-decoration: none;
-    color: #c273a0;
+    color: #ffffff;
     font-size: 24px;
 }
 
@@ -285,3 +287,141 @@ input[type="submit"]{
     border-color: white;
 }               
 
+
+@media (max-width: 992px){
+
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav{
+        padding: 20px 0;
+    }
+
+    nav ul{
+        text-align: center;
+    }
+
+    nav ul li{
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .main-heading h1{
+        font-size: 28px;
+    }
+
+    .big-button{
+        padding: 15px 40px;
+        font-size: 14px;
+    }
+
+    .costumers{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .costumer{
+        width: 45%;
+    }
+
+    .founders{
+        gap: 20px;
+    }
+
+    .founder{
+        width: 45%;
+    }
+
+    #cart{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 600px){
+
+    .first img{
+        width: 200px;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    nav ul li{
+        display: block;
+        padding: 10px 0;
+    }
+
+    .main-heading{
+        margin-top: 60px;
+    }
+
+    .main-heading h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 28px !important;
+        text-align: center;
+    }
+
+    p{
+        font-size: 16px !important;
+        margin-top: 30px !important;
+        padding: 0 15px;
+    }
+
+    .about{
+        padding: 120px 10px 40px 10px;
+    }
+
+    .big-button{
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .costumer{
+        width: 100%;
+    }
+
+    .founder{
+        width: 100%;
+    }
+
+    .products{
+        grid-template-columns: 1fr;
+    }
+
+    .product img{
+        height: 180px;
+    }
+
+    .form-row{
+        flex-direction: column;
+    }
+
+    input[type="text"],
+    input[type="email"]{
+        width: 100%;
+    }
+
+    textarea{
+        width: 100%;
+    }
+
+    #cart{
+        height: auto;
+        padding: 20px;
+    }
+
+    footer ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links ul li{
+        padding: 10px 0;
+    }
+}

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <style>
         body{
-            background-color: #c44787;
+            background-color: #d17aa7;
             color: white;
         }
 
@@ -16,14 +16,31 @@
             padding-bottom: 20px;
         }
 
-        .email::after{
-            background-color: #c44787;
+        textarea {
+            background-color: #e396ba; 
+            border: none;
+            padding: 10px;
+            color: black; 
+        }
+
+        input {
+            background-color: #e396ba; 
+            border: none;
+            padding: 10px;
+            color: white; 
         }
 
         nav ul li.active:hover{
             background-color: #c881a3;
             border-radius: 5px;
+        }
 
+        #contact-form{
+            color: #d398b6;
+        }
+
+        footer{
+            background-color: #e396ba;
         }
     </style>
 </head>
@@ -53,18 +70,32 @@
             <div id="contact-form">
                 <form>
                     <div class="form-row">
-                        <input type="text" name="name" placeholder="Your Name">
-                        <input class="email" type="email" name="email" placeholder="Your Email">
+                        <input style="background-color: #e396ba; border: none; padding: 10px; color: white;" type="text" name="name" placeholder="Your Name">
+                        <input style="background-color: #e396ba; border: none; padding: 10px; color: white;" class="email" type="email" name="email" placeholder="Your Email">
                     </div>
                     <div class="form-row">
                         <textarea type="message" name="message" placeholder="Your Message"></textarea>
                     </div>
                     <div class="form-row">
-                        <input type="submit" class="big-button" value="Send Message">
+                        <input style="background-color:#e396ba;" type="submit" class="big-button" value="Send Message">
                     </div>
                 </form>
             </div>
         </div>
-    </section>
+    </section><br><br>
+
+           <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.tiktok.com/" target="_blank">Tiktok</a></li>
+                <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+                <li><a href="https://www.viber.com/" target="_blank">Viber</a></li>
+                <li><a href="https://www.whatsapp.com/" target="_blank">Whatsapp</a></li>
+            </ul>
+        </div>
+    </footer>
+
 </body>
 </html>
