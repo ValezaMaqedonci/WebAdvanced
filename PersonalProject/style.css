@@ -5,7 +5,7 @@ body{
 }
 
 .part-1{
-    background-image: url(img/openart-image_1773845454190_3e1047a9_1773845454297_fd3c5daa.png);
+    background-image: url(img/Gemini_Generated_Image_rf1u7mrf1u7mrf1u.png);
     background-size: cover;      
     background-repeat: no-repeat; 
     background-position: center;  
@@ -45,7 +45,7 @@ nav ul li a{
 }
 
 nav ul li.active:hover{
-    background-color: #e7c4a4;
+    background-color: #e7a4af;
     border-radius: 5px;
 }
 
@@ -68,7 +68,7 @@ nav ul li.active:hover{
     text-transform: uppercase;
     border-radius: 5px;
     padding: 25px 85px;
-    background-color: #e9cac9;
+    background-color: #e4bacb;
     color: white;
 }
 
@@ -135,6 +135,10 @@ nav ul li.active:hover{
 .costumer p{
     font-size: 16px;
     line-height: 26px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 40px 20px;
+
 }
 
 #mes{
@@ -181,6 +185,7 @@ nav ul li.active:hover{
     color: white;
     padding-top: 100px;
     padding-bottom: 200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .title .line{
@@ -198,6 +203,13 @@ nav ul li.active:hover{
 
 .title h2{
     margin-top: 0;
+}
+
+.part-3 p{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 40px;
+    font-size: 17px;
 }
 
 footer{
