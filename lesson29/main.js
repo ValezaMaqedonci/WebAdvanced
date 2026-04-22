@@ -38,3 +38,4 @@ var [first, second, ...otherNumbers] = numbers
 console.log(first);
 console.log(second);
 console.log(otherNumbers.toString());
+
